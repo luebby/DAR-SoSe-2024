@@ -1,0 +1,85 @@
+---
+title: "Ihr Titel"
+lang: de
+author: "Ihr Name"
+date: "`r Sys.Date()`"
+format:
+  html:
+    toc: true
+    html-math-method: katex
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true 
+    papersize: a4
+---
+
+```{r}
+#| label: setup
+#| include: false
+# Vektor für pi unter dem Namen ppi bereitstellen
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+
+# Paket mosaic aktivieren
+library(mosaic)
+```
+
+# Problem
+
+Beschreiben Sie hier welche Fragestellung Sie analysieren wollen.
+
+## Prior Verteilung
+
+Spezifizieren und begründen Sie hier Ihre Prior Verteilung von $\pi$. 
+
+```{r prior}
+# Geben Sie hier Ihre Prior Verteilung für pi an
+
+```
+
+# Plan
+
+In diesem Abschnitt behandeln und begründen Sie, wie Sie die Daten genau erhoben wollen. 
+
+# Data
+
+Geben Sie hier die gesammelten Daten ein und kontrollieren Sie diese. Gehen Sie auch auf eventuelle Abweichungen zum Plan ein.
+
+```{r data}
+# Geben Sie hier Ihre Daten ein
+
+```
+
+# Analyse
+
+In diesem Abschnitt erfolgt die bayesianische Analyse der Daten durch Abbildungen und Kennzahlen. 
+
+## Likelihood
+
+Analysieren Sie kurz die Likelihood der Daten.
+
+```{r likelihood}
+# Analysieren Sie hier die Likelihood der Daten
+
+```
+
+## Posterior Verteilung
+
+Analysieren Sie ausführlich die Posteriror Verteilung von $\pi$.
+
+```{r}
+# Analysieren Sie hier die Posterior für pi
+
+```
+
+# Conclusion
+
+Beschreiben Sie die Antwort auf Ihre Fragestellung aus dem Problem. 
+
+Gehen Sie auch auf Limitationen und Grenzen Ihres Projektes ein. 
+
+Welche neuen Fragestellungen schließen sich an?
+
+# Theorie-Praxis-Transfer
+
+Beschreiben Sie, wo und wie Sie eine solche (oder ähnliche) Datenauswertung in Ihrer beruflichen Praxis (diese kurz angeben) nutzen können.
