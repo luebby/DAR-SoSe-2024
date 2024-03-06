@@ -43,14 +43,14 @@ In diesem Abschnitt behandeln und begründen Sie, wie Sie die Daten genau erhobe
 
 # Data
 
-Geben Sie hier die gesammelten Daten ein und kontrollieren Sie diese. Gehen Sie auch auf eventuelle Abweichungen zum Plan ein.
+Beschreiben Sie hier genau, wann, wo und wie Sie die Daten erhoben haben. Geben Sie hier außerdem die gesammelten Daten ein und kontrollieren Sie diese. Gehen Sie auch auf eventuelle Abweichungen zum Plan ein.
 
 ```{r data}
 # Geben Sie hier Ihre Daten ein
 
 ```
 
-# Analyse
+# Analysis
 
 In diesem Abschnitt erfolgt die bayesianische Analyse der Daten durch Abbildungen und Kennzahlen. 
 
