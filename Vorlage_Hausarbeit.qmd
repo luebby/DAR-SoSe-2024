@@ -26,27 +26,27 @@ library(mosaic)
 
 # Problem
 
-Beschreiben Sie hier welche Fragestellung Sie analysieren wollen.
+Beschreiben Sie hier, welche Fragestellung Sie analysieren wollen.
 
-## Prior Verteilung
+## Prior-Verteilung
 
-Spezifizieren und begründen Sie hier Ihre Prior Verteilung von $\pi$. 
+Spezifizieren und begründen Sie hier Ihre Prior-Verteilung von $\pi$. 
 
 ```{r prior}
-# Geben Sie hier Ihre Prior Verteilung für pi an
+# Geben Sie hier Ihre Prior-Verteilung für pi an.
 
 ```
 
 # Plan
 
-In diesem Abschnitt behandeln und begründen Sie, wie Sie die Daten genau erhoben wollen. 
+In diesem Abschnitt erläutern und begründen Sie, wie Sie die Daten genau erheben wollen. 
 
 # Data
 
 Beschreiben Sie hier genau, wann, wo und wie Sie die Daten erhoben haben. Geben Sie hier außerdem die gesammelten Daten ein und kontrollieren Sie diese. Gehen Sie auch auf eventuelle Abweichungen zum Plan ein.
 
 ```{r data}
-# Geben Sie hier Ihre Daten ein
+# Geben Sie hier Ihre Daten ein.
 
 ```
 
@@ -59,22 +59,22 @@ In diesem Abschnitt erfolgt die bayesianische Analyse der Daten durch Abbildunge
 Analysieren Sie kurz die Likelihood der Daten.
 
 ```{r likelihood}
-# Analysieren Sie hier die Likelihood der Daten
+# Analysieren Sie hier die Likelihood der Daten.
 
 ```
 
-## Posterior Verteilung
+## Posterior-Verteilung
 
-Analysieren Sie ausführlich die Posteriror Verteilung von $\pi$.
+Analysieren Sie ausführlich die Posterior-Verteilung von $\pi$.
 
 ```{r}
-# Analysieren Sie hier die Posterior für pi
+# Analysieren Sie hier die Posterior-Verteilung für pi.
 
 ```
 
 # Conclusion
 
-Beschreiben Sie die Antwort auf Ihre Fragestellung aus dem Problem. 
+Gebens Sie die Antwort auf Ihre Fragestellung aus dem Abschnitt Problem. 
 
 Gehen Sie auch auf Limitationen und Grenzen Ihres Projektes ein. 
 
